@@ -1,4 +1,6 @@
 /**
+ * @see https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
+ *
  * @param {number[]} nums
  * @return {number[]}
  */
@@ -22,21 +24,4 @@ const findDisappearedNumbers = nums => {
   return disappearedNumbers
 }
 
-/**
- * @param {number[]} nums
- * @return {number[]}
- */
- const findDisappearedNumbers = nums => {
-  let disappearedNumbers = []
-
-  for (let i = 0; i < nums.length; i++) {
-    if (nums.indexOf(i + 1) < 0) {
-      disappearedNumbers.push(i + 1)
-    }
-  }
-
-  return disappearedNumbers
-}
-
 console.log(findDisappearedNumbers([4, 3, 2, 7, 8, 2, 3, 1]))
-// console.log(findDisappearedNumbers([1, 1]))

@@ -1,4 +1,6 @@
 /**
+ * @see https://leetcode.com/problems/find-pivot-index/
+ *
  * @param {number[]} nums
  * @return {number}
  */
