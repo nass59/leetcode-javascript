@@ -8,7 +8,7 @@
  * @param {number[]} nums2
  * @return {number[]}
  */
-const intersect = (nums1, nums2) => {
+const intersection = (nums1, nums2) => {
   let intersection = []
   const setNums1 = new Set(nums1)
   const setNums2 = new Set(nums2)
@@ -36,7 +36,7 @@ const intersect = (nums1, nums2) => {
  * @param {number[]} nums2
  * @return {number[]}
  */
-const intersect = (nums1, nums2) => {
+const intersection = (nums1, nums2) => {
   const setNums1 = new Set(nums1)
 
   return [...new Set(nums2.filter(num => setNums1.has(num)))]
