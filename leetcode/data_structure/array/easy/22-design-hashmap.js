@@ -2,7 +2,7 @@
  * @see https://leetcode.com/problems/design-hashmap/
  */
 const MyHashMap = function () {
-  this.hashMap = []
+  this.hashMap = {}
 }
 
 /**
