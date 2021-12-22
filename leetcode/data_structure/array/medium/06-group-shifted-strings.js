@@ -1,4 +1,9 @@
 /**
+ * @see https://leetcode.com/problems/group-shifted-strings/
+ *
+ * Time Complexity: O(n*k)
+ * Space Complexity: O(n*k)
+ *
  * @param {string[]} strings
  * @return {string[][]}
  */
